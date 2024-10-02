@@ -41,7 +41,7 @@ h3 {
 
 .tag {
     display: block;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     margin-top: 5px;
 }
@@ -59,7 +59,7 @@ h3 {
 }
 
 .progress {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     color: #5A5A5A;
     margin-top: 5px;
@@ -73,7 +73,7 @@ hr {
 }
 
 .add-goal {
-    font-size: 16px;
+    font-size: 17.5px;
     font-weight: 400;
     color: #5A5A5A;
     cursor: pointer;
