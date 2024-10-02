@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    padding: 20px;
+}
+
+.quarterly-goals {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 334.57px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 27.5px;
+    font-weight: 400;
+    color: #4B5853;
+    margin: 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #4B5853;
+    margin: 8px 0;
+}
+
+.goal {
+    margin: 15px 0px;
+}
+
+.goal p {
+    font-size: 16.25px;
+    font-weight: 400;
+    color: #5A5A5A;
+    margin: 0;
+}
+
+.tag {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.class-algorithms {
+    color: #FFB987;
+}
+
+.apply-internships {
+    color: #2DBDB1;
+}
+
+.interview-technical {
+    color: #EE8B72;
+}
+
+.progress {
+    font-size: 16px;
+    font-weight: 400;
+    color: #5A5A5A;
+    margin-top: 5px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #000000;
+    opacity: 15%;
+    margin: 15px 0;
+}
+
+.add-goal {
+    font-size: 16px;
+    font-weight: 400;
+    color: #5A5A5A;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+    display: flex;
+    padding: 20px;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.time-date-container {
+    text-align: left;
+}
+
+.time {
+    font-size: 56.25px;
+    font-weight: 400;
+    color: #2DBDB1;
+}
+
+.ampm {
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    color: #2DBDB1;
+}
+
+.date {
+    font-size: 18.75px;
+    font-weight: 400;
+    color: #4B5853;
+}
