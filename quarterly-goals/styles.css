@@ -3,16 +3,34 @@ body {
     font-family: 'Oxygen', sans-serif;
     background-color: #f9f9f9;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     padding: 20px;
 }
 
 .quarterly-goals {
     background-color: #fff;
-    padding: 20px;
+    padding: 32px;
     border-radius: 12px;
-    width: 334.57px;
+    width: 387px;
+    height: 591px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+.header-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 h2 {
     font-size: 27.5px;
@@ -22,14 +40,35 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 22.5px;
     font-weight: 700;
     color: #4B5853;
     margin: 8px 0;
 }
 
+.edit-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
 .goal {
-    margin: 15px 0px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.goal-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox {
+    width: 21.04px;
+    height: 21.06px;
+    cursor: pointer;
 }
 
 .goal p {
@@ -42,7 +81,6 @@ h3 {
 .tag {
     display: block;
     font-size: 15px;
-    font-weight: 400;
     margin-top: 5px;
 }
 
@@ -62,7 +100,6 @@ h3 {
     font-size: 15px;
     font-weight: 400;
     color: #5A5A5A;
-    margin-top: 5px;
 }
 
 hr {
@@ -77,4 +114,10 @@ hr {
     font-weight: 400;
     color: #5A5A5A;
     cursor: pointer;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.add-goal:hover {
+    color: #4B5853;
 }
